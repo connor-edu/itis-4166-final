@@ -1,0 +1,18 @@
+.skip-to-content-link {
+  margin: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 16px;
+  color: white;
+  background-color: blue;
+}
+
+.skip-to-content-link:focus {
+  z-index: 20;
+  width: auto;
+  height: auto;
+  clip: auto;
+}

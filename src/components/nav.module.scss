@@ -1,0 +1,41 @@
+.menu {
+  width: 100%;
+  background-color: #4d5791;
+  height: 44px;
+  padding: 0 20px;
+
+  @media only screen and (min-width: 800px) {
+    padding: 0 40px;
+  }
+
+
+  ul,
+  ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+
+
+  ul li a:hover {
+    background-color: white;
+    color: #4d5791;
+  }
+}
+
+.menu_item {
+  display: block;
+  padding: 0 20px;
+  line-height: 44px;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  cursor: pointer;
+}
+
+.menu_item_active {
+  background-color: white;
+  color: #4d5791;
+}

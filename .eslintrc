@@ -1,0 +1,14 @@
+{
+  "extends": "a1motion/typescript-react",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "createDefaultProgram": true
+  },
+  "settings": {
+    "react": {
+      "version": "999"
+    }
+  },
+  "rules": {
+  }
+}
